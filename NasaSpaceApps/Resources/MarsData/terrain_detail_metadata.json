@@ -1,0 +1,39 @@
+{
+  "sourceProduct": "DTEEC_040770_1755_039280_1755_U01",
+  "sourcePage": "https://www.uahirise.org/dtm/dtm.php?ID=ESP_040770_1755",
+  "sourceFile": "https://www.uahirise.org/PDS/DTM/ESP/ORB_040700_040799/ESP_040770_1755_ESP_039280_1755/DTEEC_040770_1755_039280_1755_U01.IMG",
+  "sourceInstitution": "University of Arizona / HiRISE Operations Center",
+  "mission": "Mars Reconnaissance Orbiter",
+  "instrument": "HiRISE stereo DTM",
+  "dataSetId": "MRO-M-HIRISE-5-DTM-V1.0",
+  "originalPostSpacingMeters": 1.0117630165416,
+  "sourceSampleStepPixels": 3,
+  "gridSpacingMeters": 3.035289,
+  "sampledPointSpanMeters": 1025.928,
+  "gridSize": 339,
+  "cropOriginPixels": {
+    "x": 2639,
+    "y": 5608
+  },
+  "sourceRasterSize": {
+    "width": 6300,
+    "height": 12238
+  },
+  "sourceLocation": {
+    "latitudeCenterDegrees": -4.687699920663519,
+    "longitudeCenterDegreesEast": 137.3888819769589,
+    "coordinatePrecision": "computed from PDS3 map projection and sampled crop center"
+  },
+  "cropFootprint": {
+    "minimumLatitudeDegrees": -4.696353931073018,
+    "maximumLatitudeDegrees": -4.67904591025402,
+    "minimumLongitudeDegreesEast": 137.38022796654943,
+    "maximumLongitudeDegreesEast": 137.39753598736843,
+    "coordinateReference": "PDS3 simple cylindrical map projection; bounds span sampled post centers"
+  },
+  "verticalDatum": "Mars 2000 areoid / equipotential surface",
+  "heightEncoding": "little-endian IEEE-754 float32 meters",
+  "invalidSamplesReplacedWithZero": 0,
+  "registrationNote": "This compact crop is centered in the source raster. It is Gale Crater / Curiosity terrain context; it is not confirmed to overlap the Altadena drill location. Case-study endpoints, hazard overlays, surface classes, crew positions, and telemetry are synthetic demonstration inputs.",
+  "processing": "Centered crop, regularly sampled from the HiRISE DTM at its PDS MAP_SCALE and the documented sourceSampleStepPixels interval. No synthetic displacement or shape-from-shading applied."
+}
